@@ -13,7 +13,7 @@ Student* addStudent(Student *head);
 void displayStudents(Student *head);
 Student* searchStudentByID(Student* head, int id);
 void updateStudent(Student *head, int id);
-Student* deleteStudent(Student **head, int id);
+void deleteStudent(Student **head, int id);
 void saveToFile(Student *head);
 Student* loadFromFile();
 

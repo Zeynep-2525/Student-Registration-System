@@ -6,7 +6,6 @@
 Student *addStudent(Student *head)
 {
     Student *newStudent = (Student *)malloc(sizeof(Student));
-    Student *temp = head;
 
     if (newStudent == NULL)
     {
